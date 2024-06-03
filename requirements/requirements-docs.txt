@@ -5,9 +5,11 @@ nbsphinx>=0.3.4,<0.4
 notedown
 pytest-runner~=2.11
 recommonmark
-sphinx~=2.1
+sphinx~=3.3.0
 sphinx-autobuild~=0.7
 sphinx-autorun
 sphinx-gallery
 tornado==5.1.1
 mxtheme==0.3.*
+requests>=2.32.0 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
