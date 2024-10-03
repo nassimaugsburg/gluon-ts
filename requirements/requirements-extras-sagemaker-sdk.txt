@@ -2,3 +2,7 @@ sagemaker~=2.0
 s3fs~=0.6; python_version >= "3.7.0"
 s3fs~=0.5; python_version < "3.7.0"
 fsspec~=0.8,<0.9; python_version < "3.7.0"
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.32.2 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
