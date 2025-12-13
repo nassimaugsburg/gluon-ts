@@ -9,5 +9,6 @@ sphinx~=2.1
 sphinx-autobuild~=0.7
 sphinx-autorun
 sphinx-gallery
-tornado==5.1.1
+tornado==6.5.3
 mxtheme==0.3.*
+urllib3>=2.6.0 # not directly required, pinned by Snyk to avoid a vulnerability
